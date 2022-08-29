@@ -1,6 +1,6 @@
 /**
  * 
- * @param {Array} array - They array to search through
+ * @param {number[]} array - They array to search through
  * @param {number} value - The value we are searching
  * @return {number} - The index of the searched element, null if not found
  * 
@@ -27,7 +27,7 @@ export function binarySearch(array, value) {
 
 /**
  * 
- * @param {Array} array - They array to search through
+ * @param {number[]} array - They array to search through
  * @param {number} value - The value we are searching
  * @param {boolean} countIterations - If it should return iterations as well
  * @return {number, number} [index, iterations]- The index in the array and the iterations
