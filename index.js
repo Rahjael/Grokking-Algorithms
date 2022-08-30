@@ -1,6 +1,7 @@
 import { binarySearch, binarySearchIterations } from '/binary_search.js';
 import { selectionSort, selectionSortInPlace } from './selectionSort.js';
 import { bubbleSort } from './bubbleSort.js';
+import { insertionSort } from './insertionSort.js';
 
 
 
@@ -24,10 +25,16 @@ console.log(randomArray);
 console.log(selectionSort(randomArray));
 */
 
-
+/*
 const randomArray = createRandomUnorderedArray(10);
 console.log(randomArray);
 bubbleSort(randomArray);
+console.log(randomArray);
+*/
+
+const randomArray = createRandomUnorderedArray(10);
+console.log(randomArray);
+insertionSort(randomArray);
 console.log(randomArray);
 
 
